@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6665971-2347-4a5f-a93f-b3fb11657a4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Raouf.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/startpage/static/css/mycss.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/startpage/templates/startpage/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/startpage/templates/startpage/post_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startpage/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startpage/templates/startpage/post_edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Raouf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Raouf.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/startpage/templates/startpage/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/startpage/templates/startpage/post_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startpage/templates/startpage/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/startpage/templates/startpage/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startpage/templates/startpage/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/startpage/templates/startpage/post_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/startpage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/startpage/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/startpage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/startpage/views.py" afterDir="false" />
     </list>
@@ -49,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/startpage/templates/startpage/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            <state relative-caret-position="300">
+              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -67,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/startpage/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="240">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -79,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/startpage/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="696">
+              <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -88,30 +87,34 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/startpage/templates/startpage/post_edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/startpage/templates/startpage/post_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+            <state relative-caret-position="450">
+              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/startpage/models.py">
+        <entry file="file://$PROJECT_DIR$/startpage/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="240">
+              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#24#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/startpage/apps.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -137,10 +140,12 @@
         <option value="$PROJECT_DIR$/startpage/static/css/apparta.css" />
         <option value="$PROJECT_DIR$/static/css/apparta.css" />
         <option value="$PROJECT_DIR$/startpage/static/css/startpage.css" />
-        <option value="$PROJECT_DIR$/startpage/templates/startpage/base.html" />
         <option value="$PROJECT_DIR$/startpage/templates/startpage/post_list.html" />
+        <option value="$PROJECT_DIR$/startpage/forms.py" />
+        <option value="$PROJECT_DIR$/startpage/templates/startpage/post_edit.html" />
         <option value="$PROJECT_DIR$/startpage/urls.py" />
         <option value="$PROJECT_DIR$/startpage/views.py" />
+        <option value="$PROJECT_DIR$/startpage/templates/startpage/base.html" />
         <option value="$PROJECT_DIR$/startpage/templates/startpage/post_detail.html" />
       </list>
     </option>
@@ -168,6 +173,12 @@
               <item name="apparta" type="b2602c69:ProjectViewProjectNode" />
               <item name="apparta" type="462c0819:PsiDirectoryNode" />
               <item name="startpage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apparta" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apparta" type="462c0819:PsiDirectoryNode" />
+              <item name="startpage" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="apparta" type="b2602c69:ProjectViewProjectNode" />
@@ -333,10 +344,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/startpage/templates/startpage/post_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/startpage/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/startpage/templates/startpage/post_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/startpage/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="240">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -345,32 +380,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/startpage/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="696">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/startpage/templates/startpage/post_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/startpage/templates/startpage/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="300">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/startpage/templates/startpage/post_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        <state relative-caret-position="450">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
